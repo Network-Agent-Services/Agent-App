@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_airtel"
+        android:title="@string/menu_airtel"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_mtn"
+        android:title="@string/menu_mtn"
+        app:showAsAction="never"/>
+
+</menu>

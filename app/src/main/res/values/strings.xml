@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Agent services</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Agent Line services</string>
+    <string name="nav_header_subtitle">Easing transactions</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home (Agent Services)</string>
+    <string name="menu_transactions">Transactions</string>
+    <string name="menu_account">My Account</string>
+    <string name="menu_airtel">AIRTEL</string>
+    <string name="menu_mtn">MTN</string>
+    <string name="menu_notification">Notifications</string>
+
+
+    <string name="home_withdraw">Withdraw</string>
+    <string name="menu_withdraw_airtel">Airtel Withdraw</string>
+    <string name="menu_withdraw_mtn">MTN Withdraw</string>
+
+    <string name="home_deposit">Deposit</string>
+    <string name="menu_deposit_airtel">Airtel Deposit/Send</string>
+    <string name="menu_deposit_mtn">MTN Deposit/Send</string>
+
+    <string name="home_easyload">Easyload</string>
+    <string name="menu_easyload_airtel">Airtel Easy Load</string>
+    <string name="menu_easyload_mtn">MTN Easy Load</string>
+
+    <string name="home_airtime">Mobile Money Airtime</string>
+    <string name="menu_airtime_airtel">Airtel Money Airtime</string>
+    <string name="menu_airtime_mtn">MTN Mobile M Airtime</string>
+
+    <string name="home_ott">OTT</string>
+    <string name="menu_ott_airtel">Airtel OTT</string>
+    <string name="menu_ott_mtn">MTN OTT</string>
+
+    <string name="home_voicebundles">Voice Bundles</string>
+    <string name="menu_voicebundles_airtel">Airtel Voice Bundles</string>
+    <string name="menu_voicebundles_mtn">MTN Voice Bundles</string>
+
+
+    <string name="home_databundles">Data Bundles</string>
+    <string name="menu_databundles_airtel">Airtel Data Bundles</string>
+    <string name="menu_databundles_mtn">MTN Data Bundles</string>
+
+
+
+    <string-array name="ott_option">
+        <item>Daily Tax -200/-</item>
+        <item>Weekly Tax -1,400/-</item>
+        <item>Monthy Tax -6000/-</item>
+        <item>Quartly Tax -18,000/-</item>
+        <item>Annual Tax -73,000/-</item>
+    </string-array>
+
+
+    <string-array name="voicebundles_option_airtel">
+        <item>Kawa 10 minutes -500/--</item>
+        <item>Kawa -600/-</item>
+        <item>kawa weekly -3500/-</item>
+        <item>Pakalast 30 minutes -1000/-</item>
+    </string-array>
+
+    <string-array name="voicebundles_option_mtn">
+        <item>Daily 6 minutes -500/-</item>
+        <item>Daily 10 minutes -700/-</item>
+        <item>Daily 20 minutes -1000/-</item>
+        <item>Daily 60 minutes -2,000/-</item>
+    </string-array>
+
+    <string-array name="databundles_option_airtel">
+        <item>Daily 15MBs -250/-</item>
+        <item>Daily 40MBs -500/-</item>
+        <item>Daily 100MBs -1000/-</item>
+        <item>Daily 300MBs -2,000/-</item>
+        <item>Weekly 1.17GB -7,000/-</item>
+        <item>Weekly 4GB -15,000/-</item>
+        <item>Weekly 7GB -20,000/-</item>
+        <item>PakaNight 1GB -2,000/-</item>
+    </string-array>
+
+    <string-array name="databundles_option_mtn">
+        <item>Daily 15MBs -250/-</item>
+        <item>Daily 40MBs -500/-</item>
+        <item>Daily 100MBs -1000/-</item>
+        <item>Daily 300MBs -2,000/-</item>
+        <item>Daily 1GB -5,000/-</item>
+        <item>Weekly 500MBs -5,000/-</item>
+        <item>Weekly 1.5GB -10,000/-</item>
+        <item>Weekly 5GB -20,000/-</item>
+
+    </string-array>
+
+
+
+
+</resources>

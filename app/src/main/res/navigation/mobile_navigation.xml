@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+<!--    home-->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.agentservices.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+<!--    withdraw-->
+
+    <fragment
+        android:id="@+id/nav_withdraw_airtel"
+        android:name="com.example.agentservices.ui.withdraw.WithdrawFragmentAirtel"
+        android:label="@string/menu_withdraw_airtel"
+        tools:layout="@layout/fragment_withdraw_airtel" />
+    <fragment
+        android:id="@+id/nav_withdraw_mtn"
+        android:name="com.example.agentservices.ui.withdraw.WithdrawFragmentMTN"
+        android:label="@string/menu_withdraw_mtn"
+        tools:layout="@layout/fragment_withdraw_mtn" />
+
+<!--    Deposit-->
+
+    <fragment
+        android:id="@+id/nav_deposit_airtel"
+        android:name="com.example.agentservices.ui.deposit.DepositFragmentAirtel"
+        android:label="@string/menu_deposit_airtel"
+        tools:layout="@layout/fragment_deposit_airtel" />
+
+    <fragment
+        android:id="@+id/nav_deposit_mtn"
+        android:name="com.example.agentservices.ui.deposit.DepositFragmentMTN"
+        android:label="@string/menu_deposit_mtn"
+        tools:layout="@layout/fragment_deposit_mtn" />
+
+<!--   Mobile Money Airtime-->
+
+    <fragment
+        android:id="@+id/nav_airtime_airtel"
+        android:name="com.example.agentservices.ui.airtime.AirtimeFragmentAirtel"
+        android:label="@string/menu_airtime_airtel"
+        tools:layout="@layout/fragment_airtime_airtel" />
+
+    <fragment
+        android:id="@+id/nav_airtime_mtn"
+        android:name="com.example.agentservices.ui.airtime.AirtimeFragmentMTN"
+        android:label="@string/menu_airtime_mtn"
+        tools:layout="@layout/fragment_airtime_mtn" />
+
+
+    <!--  EasyLoad Airtime-->
+    <fragment
+        android:id="@+id/nav_easyload_airtel"
+        android:name="com.example.agentservices.ui.easyload.EasyLoadFragmentAirtel"
+        android:label="@string/menu_easyload_airtel"
+        tools:layout="@layout/fragment_easyload_airtel" />
+
+    <fragment
+        android:id="@+id/nav_easyload_mtn"
+        android:name="com.example.agentservices.ui.easyload.EasyLoadFragmentMTN"
+        android:label="@string/menu_easyload_mtn"
+        tools:layout="@layout/fragment_easyload_mtn" />
+
+
+    <!--  OTT-->
+    <fragment
+        android:id="@+id/nav_ott_airtel"
+        android:name="com.example.agentservices.ui.ott.OTTFragmentAirtel"
+        android:label="@string/menu_ott_airtel"
+        tools:layout="@layout/fragment_ott_airtel" />
+
+    <fragment
+        android:id="@+id/nav_ott_mtn"
+        android:name="com.example.agentservices.ui.ott.OTTFragmentMTN"
+        android:label="@string/menu_ott_mtn"
+        tools:layout="@layout/fragment_ott_mtn" />
+
+    <!-- Voice Bundles-->
+    <fragment
+        android:id="@+id/nav_voicebundles_airtel"
+        android:name="com.example.agentservices.ui.voicebundles.VoiceBundlesFragmentAirtel"
+        android:label="@string/menu_voicebundles_airtel"
+        tools:layout="@layout/fragment_voicebundles_airtel" />
+
+    <fragment
+        android:id="@+id/nav_voicebundles_mtn"
+        android:name="com.example.agentservices.ui.voicebundles.VoiceBundlesFragmentMTN"
+        android:label="@string/menu_voicebundles_mtn"
+        tools:layout="@layout/fragment_voicebundles_mtn" />
+
+    <!-- Data Bundles-->
+    <fragment
+        android:id="@+id/nav_databundles_airtel"
+        android:name="com.example.agentservices.ui.databundles.DataBundlesFragmentAirtel"
+        android:label="@string/menu_databundles_airtel"
+        tools:layout="@layout/fragment_databundles_airtel" />
+
+    <fragment
+        android:id="@+id/nav_databundles_mtn"
+        android:name="com.example.agentservices.ui.databundles.DataBundlesFragmentMTN"
+        android:label="@string/menu_databundles_mtn"
+        tools:layout="@layout/fragment_databundles_mtn" />
+
+
+
+    <fragment
+        android:id="@+id/nav_transactions"
+        android:name="com.example.agentservices.ui.transactions.TransactionsFragment"
+        android:label="@string/menu_transactions"
+        tools:layout="@layout/fragment_transactions" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.example.agentservices.ui.notification.NotificationFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notification" />
+
+
+</navigation>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8home"
+            android:title="@string/menu_home" />
+
+        <item android:title="Airtel">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_easyload_airtel"
+                    android:icon="@drawable/iconsexternallink"
+                    android:title="@string/menu_easyload_airtel" />
+
+                <item
+                    android:id="@+id/nav_airtime_airtel"
+                    android:icon="@drawable/icons8plus"
+                    android:title="@string/menu_airtime_airtel" />
+
+                <item
+                    android:id="@+id/nav_deposit_airtel"
+                    android:icon="@drawable/icons8lock"
+                    android:title="@string/menu_deposit_airtel" />
+
+                <item
+                    android:id="@+id/nav_withdraw_airtel"
+                    android:icon="@drawable/icons8padlock"
+                    android:title="@string/menu_withdraw_airtel" />
+                <item
+                    android:id="@+id/nav_ott_airtel"
+                    android:icon="@drawable/icons8uploadtothecloudd"
+                    android:title="@string/menu_ott_airtel" />
+
+                <item
+                    android:id="@+id/nav_databundles_airtel"
+                    android:icon="@drawable/icons8toolbox"
+                    android:title="@string/menu_databundles_airtel" />
+
+                <item
+                    android:id="@+id/nav_voicebundles_airtel"
+                    android:icon="@drawable/icons8sun"
+                    android:title="@string/menu_voicebundles_airtel" />
+
+            </menu>
+        </item>
+
+        <item android:title="MTN">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_easyload_mtn"
+                    android:icon="@drawable/iconsexternallink"
+                    android:title="@string/menu_easyload_mtn" />
+
+                <item
+                    android:id="@+id/nav_airtime_mtn"
+                    android:icon="@drawable/icons8plus"
+                    android:title="@string/menu_airtime_mtn" />
+
+                <item
+                    android:id="@+id/nav_deposit_mtn"
+                    android:icon="@drawable/icons8lock"
+                    android:title="@string/menu_deposit_mtn" />
+
+                <item
+                    android:id="@+id/nav_withdraw_mtn"
+                    android:icon="@drawable/icons8padlock"
+                    android:title="@string/menu_withdraw_mtn" />
+
+                <item
+                    android:id="@+id/nav_ott_mtn"
+                    android:icon="@drawable/icons8uploadtothecloudd"
+                    android:title="@string/menu_ott_mtn" />
+
+                <item
+                    android:id="@+id/nav_databundles_mtn"
+                    android:icon="@drawable/icons8toolbox"
+                    android:title="@string/menu_databundles_mtn" />
+
+                <item
+                    android:id="@+id/nav_voicebundles_mtn"
+                    android:icon="@drawable/icons8sun"
+                    android:title="@string/menu_voicebundles_mtn" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Account Details">
+        <menu>
+            <item
+                android:id="@+id/nav_transactions"
+                android:icon="@drawable/icons8refresh"
+                android:title="@string/menu_transactions" />
+
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/icons8refresh"
+                android:title="@string/menu_notification" />
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/icons8key"
+                android:title="@string/menu_account" />
+        </menu>
+    </item>
+
+</menu>
